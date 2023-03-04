@@ -1,5 +1,6 @@
 # after the login, you could using this function to get a Dataframe for the PO you want to check
-# if you want to save it to an excel, you can also 
+# if you want to save it to an excel, you can add this:
+# get_po_infos("your po").to_excel(r'save_path\po_name.xlsx', index = None)
 # it makes copy some values more easier and prepare for future management system co-search
 
 def get_po_infos(po):
