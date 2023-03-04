@@ -13,5 +13,5 @@ def log(username, userpassword):
     session.FindById("wnd[0]").sendVKey(0)
     return session
 
-session = log("5mvq6j", "xx222222")
+session = log("username", "password")  # your account name and password
   
