@@ -11,5 +11,7 @@ def set_SPQ(plant, material_number, SPQ):
     session.findById("wnd[0]/tbar[0]/btn[11]").press()
 
     
-#  use like this: set_SPQ("plant_name", "material_number", "spq")
-#  also could use a dict to set a series of PN: SPQ 
+# use like this: set_SPQ("plant_name", "material_number", "spq")
+# also could use a dict to set a lot of pn_sqp = {"a": "a's spq", "b": "b's spq",..., "y": "y's spq"}
+# for key, value in pn_spq.items():
+    # set_SPQ("plant_name", key, value)
